@@ -12,7 +12,7 @@ class Planeta (var nombre:String , var tipo:String, var masa: Double) {
     }
 
     fun esTipo(tipo: String):Boolean{
-        return if (tipo.equals(this.tipo))
+        return tipo.equals(this.tipo)
     }
 
 
