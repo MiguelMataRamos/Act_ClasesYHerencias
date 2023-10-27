@@ -28,7 +28,7 @@ class Planeta {
     }
 
     fun esTipo(tipo: String):Boolean{
-        return tipo.equals(this.tipo)
+        return tipo == this.tipo
     }
 
 
