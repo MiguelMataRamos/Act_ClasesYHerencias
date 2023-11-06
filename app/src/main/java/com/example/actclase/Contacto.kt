@@ -21,7 +21,7 @@ class Contacto{
 }
 
 class ListaContactos{
-    var contactos : MutableList<Contacto> = mutableListOf()
+    private var contactos : MutableList<Contacto> = mutableListOf()
 
     fun anadir(n:String, t:String, e_m: String){
         var existe = false
