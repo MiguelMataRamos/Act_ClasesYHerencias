@@ -71,6 +71,27 @@ fun main(){
 
     //Ejercicio 12. Crea una lista con 16 equipos de fútbol de países distintos (no puede
     //haber más de cuatro equipos por país)
+    var equipos = mutableListOf<EquipoFutbol>(
+        EquipoFutbol("Arenas","España"),
+        EquipoFutbol("Arenas","España"),
+        EquipoFutbol("Arenas","España"),
+        EquipoFutbol("Arenas","España"),
+
+        EquipoFutbol("Arenas","Francia"),
+        EquipoFutbol("Arenas","Francia"),
+        EquipoFutbol("Arenas","Francia"),
+        EquipoFutbol("Arenas","Francia"),
+
+        EquipoFutbol("Arenas","Alemania"),
+        EquipoFutbol("Arenas","Alemania"),
+        EquipoFutbol("Arenas","Alemania"),
+        EquipoFutbol("Arenas","Alemania"),
+
+        EquipoFutbol("Arenas","Unggria"),
+        EquipoFutbol("Arenas","Unggria"),
+        EquipoFutbol("Arenas","Unggria"),
+        EquipoFutbol("Arenas","Unggria"),
+    )
 
 
     //Ejercicio 13. Crea la función championsLeagueque recibe como entrada la lista con
