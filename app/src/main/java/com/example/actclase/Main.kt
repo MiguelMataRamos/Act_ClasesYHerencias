@@ -32,8 +32,49 @@ fun main(){
 //    contactos.verContactos()
 
     //EJERCICIO 4
+//    var estudiante = Estudiante("Nombre",21,9.99)
+//    var clase = Estudiantes()
+//    clase.agregar(estudiante)
+//    clase.agregar("Nombre2",4,7.8)
+//    clase.calcularMedia()
+//    clase.mostrar("Nombre2")
+
+    //EJERCICIO 5
+//    var producto = Producto("Producto",2.43,19)
+//    var inventario = Inventario()
+//    inventario.agregar("Producto2",1.99,150)
+//    inventario.agregar(producto)
+//    inventario.mostrarInventario()
+//    inventario.actStock("Producto2",10)
+//    inventario.mostrarInventario()
 
 
+    //EJERCICIO 6
+    //(HECHO EN CLASE SISTEMA SOLAR)
 
+    //Ejercicio 7
+//    var s = SistemaSolar()
+//    s.mostrarInfo()
+
+    //Ejercicio 8
+//    s.mostrarPorLetra('M')
+
+    //Ejercicio 9
+//    s.gaseosoMasa20Veces()
+
+    //Ejercicio 10
+//    s.masaMedia()
+
+
+    //Ejercicio 11. Crea la clase equipo de fútbol que contenga el nombre y país del equipo
+
+
+    //Ejercicio 12. Crea una lista con 16 equipos de fútbol de países distintos (no puede
+    //haber más de cuatro equipos por país)
+
+
+    //Ejercicio 13. Crea la función championsLeagueque recibe como entrada la lista con
+    //los 16 equipos y muestra por pantalla un sorteo de octavos* de final de la Champions.
+    //*(no tengas en cuenta que equipos de un mismo país no pueden enfrentarse)
 
 }
