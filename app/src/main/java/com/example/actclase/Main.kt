@@ -50,7 +50,7 @@ fun main(){
 
 
     //EJERCICIO 6
-    //(HECHO EN CLASE SISTEMA SOLAR)
+//    (HECHO EN CLASE SISTEMA SOLAR)
 
     //Ejercicio 7
 //    var s = SistemaSolar()

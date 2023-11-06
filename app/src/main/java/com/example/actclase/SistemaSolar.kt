@@ -6,9 +6,14 @@ class SistemaSolar {
 
     var lista = mutableListOf<Planeta>(
         Planeta("Tierra","Rocoso",5.0),
-        Planeta("Barro","Rocoso",10.0),
-        Planeta("Polvo","Gaseoso",1.0),
-    )
+        Planeta("Mercurio","Rocoso",10.0),
+        Planeta("Venus","Gaseoso",13.0),
+        Planeta("Marte","Gaseoso",15.0),
+        Planeta("Júpiter","Rocoso",12.0),
+        Planeta("Saturno","Gaseoso",132.0),
+        Planeta("Urano","Gaseoso",18.0),
+        Planeta("Neptuno","Gaseoso",111.0)
+        )
 
     fun planetaMayor():Planeta{
         lista.sortBy { it.masa }
