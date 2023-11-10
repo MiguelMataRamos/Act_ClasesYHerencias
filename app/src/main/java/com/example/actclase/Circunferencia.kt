@@ -18,6 +18,6 @@ class Circunferencia(var radio:Double) {
 
     @Override
     override fun toString(): String {
-        return "Su radio es de "+longitud()
+        return "Su radio es de "+longitud()+" y su centro es "+centro.toString()
     }
 }
