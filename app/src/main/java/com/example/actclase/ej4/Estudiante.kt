@@ -5,8 +5,16 @@
 //de calificaciones de todos los estudiantes.
 
 
-package com.example.actclase
+package com.example.actclase.ej4
 
+fun main() {
+    var estudiante = Estudiante("Nombre",21,9.99)
+    var clase = Estudiantes()
+    clase.agregar(estudiante)
+    clase.agregar("Nombre2",4,7.8)
+    clase.calcularMedia()
+    clase.mostrar("Nombre2")
+}
 class Estudiante {
     var nombre = ""
     var edad = 0

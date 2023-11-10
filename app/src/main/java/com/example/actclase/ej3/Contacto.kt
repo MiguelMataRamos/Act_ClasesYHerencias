@@ -4,8 +4,18 @@
 //correo electrónico. Luego, crea una lista de objetos Contacto y permite a los usuarios agregar,
 //eliminar y mostrar contactos
 
-package com.example.actclase
+package com.example.actclase.ej3
 
+fun main() {
+    var contactos = ListaContactos()
+    var yo = Contacto("Miguel","+34672368367","mataramosmiguel@gmail.com")
+    contactos.anadir(yo)
+    contactos.anadir("Paco Mecanico","+34696968726","personasdecompañia@itunes.com")
+    contactos.verContactos()
+    contactos.borrar("Paco Mecanico")
+    contactos.verContactos()
+
+}
 class Contacto{
     var nombre = ""
     var telefono = ""

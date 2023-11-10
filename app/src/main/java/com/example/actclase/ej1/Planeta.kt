@@ -4,7 +4,7 @@
 //devuelve el planeta de mayor masa, .planetaMenor() que devuelve el planeta de menor
 //masa y .masaMedia() que devuelve la masa media de los planetas del sistema solar.
 
-package com.example.actclase
+package com.example.actclase.ej1
 class Planeta {
     var nombre = ""
     var tipo = ""

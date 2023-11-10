@@ -1,4 +1,23 @@
-package com.example.actclase
+package com.example.actclase.`ej6-10`
+
+import com.example.actclase.ej1.Planeta
+
+fun main() {
+
+    //Ejercicio 7
+//    var s = SistemaSolar()
+//    s.mostrarInfo()
+
+    //Ejercicio 8
+//    s.mostrarPorLetra('M')
+
+    //Ejercicio 9
+//    s.gaseosoMasa20Veces()
+
+    //Ejercicio 10
+//    s.masaMedia()
+
+}
 
 class SistemaSolar {
     //Ejercicio 6. Crea una lista con los nueve planeta del Sistema Solar.
@@ -15,12 +34,12 @@ class SistemaSolar {
         Planeta("Neptuno","Gaseoso",111.0)
         )
 
-    fun planetaMayor():Planeta{
+    fun planetaMayor(): Planeta {
         lista.sortBy { it.masa }
         return lista[0]
     }
 
-    fun planetaMenor():Planeta{
+    fun planetaMenor(): Planeta {
         lista.sortByDescending { it.masa }
         return lista[0]
     }
