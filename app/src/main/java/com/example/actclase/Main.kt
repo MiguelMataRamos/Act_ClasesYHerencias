@@ -53,16 +53,5 @@ fun main(){
 //    s.masaMedia()
 
 
-    //Ejercicio 11. Crea la clase equipo de fútbol que contenga el nombre y país del equipo
-
-
-    //Ejercicio 12. Crea una lista con 16 equipos de fútbol de países distintos (no puede
-    //haber más de cuatro equipos por país)
-
-
-
-    //Ejercicio 13. Crea la función championsLeagueque recibe como entrada la lista con
-    //los 16 equipos y muestra por pantalla un sorteo de octavos* de final de la Champions.
-    //*(no tengas en cuenta que equipos de un mismo país no pueden enfrentarse)
 
 }
